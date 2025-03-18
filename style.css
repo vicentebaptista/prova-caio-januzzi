@@ -38,15 +38,13 @@
     padding: 10px;
 }
 .logo img{
-    width: 50px;
+    position: relative;
+    top: 25px;
     margin-left: 5vw;
 }
 .icons{
     display: flex;
-    flex-wrap: nowrap;
     padding: 10px;
-    align-items: center;
-    justify-content: center;
 }
 .icon{
     display: inline-block;
@@ -80,19 +78,20 @@
     display: block;
 }
 .container .imghover .big_img img{
-    width: 30;
-    height: 450px;
+    width: 600px;
+    height: 600px;
     border: 5px solid #ffffff;
     border-radius: 10px;
 }
 .container .imghover .small_img{
+    box-shadow: 10px 5px 5px black;
     position: absolute;
     display: block;
 }
 .small_img img {
     position: absolute;
     bottom: 15px;
-    width: 250px;
+    width: 350px;
     border: 5px solid #ffffff;
     border-radius: 10px;
 }
