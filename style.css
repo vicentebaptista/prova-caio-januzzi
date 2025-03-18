@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    height: 100vh;
+    background: #181717;
+}
+.body{
+    size: 100vh;
+}
+.head {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: end;
+    width: 100vw;
+}
+.head .itemshead{
+    padding: 20px;
+    display: block;
+    align-items: end;
+    justify-content: end;
+    margin-left: 50vw;
+}
+.head .itemshead span{
+    color: #ffffff;
+    font-weight: 500;
+    padding: 10px;
+    margin-right: 20px;
+}
+.logo{
+    display: block;
+    padding: 10px;
+}
+.logo img{
+    width: 50px;
+    margin-left: 5vw;
+}
+.icons{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 25px;
+    color: #ffffff;
+    margin-left: 10px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.container .textbox {
+    justify-content: space-between;
+    margin-left: 10vw;
+    width: 40vw;
+    height: 500px;
+}
+.container .imghover{
+    position: relative;
+    top: 40px;
+    margin-left: 70px;
+    width: 40vw;
+    height: 500px;
+}
+.container .imghover .big_img{
+    padding: 50px;
+    position: relative;
+    display: block;
+}
+.container .imghover .big_img img{
+    width: 30;
+    height: 450px;
+    border: 5px solid #ffffff;
+    border-radius: 10px;
+}
+.container .imghover .small_img{
+    position: absolute;
+    display: block;
+}
+.small_img img {
+    position: absolute;
+    bottom: 15px;
+    width: 250px;
+    border: 5px solid #ffffff;
+    border-radius: 10px;
+}
+.textbox{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.textbox h1{
+    color: #ffffff;
+    letter-spacing: -0.1ch;
+    text-transform: uppercase;
+    font-size: 6em;
+}
+.textbox span{
+    color: #ffffff;
+}
+.textbox .maleta {
+    color: #df4c08;
+}
+.btn-explore{
+    padding: 15px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 40px;
+    border-radius: 5px;
+    color: #181717;
+    background-color: #df4c08;
+    border: #df4c08;
+    width: 250px;
+}
