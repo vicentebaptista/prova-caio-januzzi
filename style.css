@@ -157,13 +157,14 @@
 .newproducts{
     display: grid;
     grid-template-columns: 1fr 5fr 1fr;
-    min-height: 100vh;
+    min-height: 70vh;
 }
 .productcontent{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 45px;
     padding: 20px;
+    height: fit-content;
 }
 .card{
     display: flex;
@@ -198,6 +199,65 @@
 .prd-img-2 .prd-pic {
     margin-top: auto; 
 }
+.reviews{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+}
+.rev-content{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    width: 100%;
+}
+.carroussel{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr;
+    height: 40vh;
+    align-content: center;
+    margin-left: 10vw;
+}
+.carroussel img{
+    width: 300px;
+}
+.review-card{
+    display: flex;
+    flex-direction: column;
+    max-height: fit-content;
+    align-self: center;
+    padding: 40px;
+    width: 40vw;
+}
+.review-card span {
+    margin-bottom: 15px;
+}
+.review-card-1, .review-card-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 45px; 
+}
+.review-card-2{
+    display: none;
+}
+.review-card-1, .review-card-2 h3{
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 1366px) {
     .container .imghover .big_img img{
