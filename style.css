@@ -18,7 +18,6 @@
     flex-direction: row;
     justify-items: center;
     align-items: end;
-    width: 100vw;
 }
 .head .itemshead{
     padding: 20px;
@@ -123,4 +122,121 @@
     background-color: #df4c08;
     border: #df4c08;
     width: 250px;
+}
+.about{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.hero-img{
+    height: 85vh;
+    mask-image: url("/assets/FORMA\ IMAG.svg");
+    mask-size: cover;
+    margin-left: 5vw;
+}
+.abouttext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px;
+    padding-left: 0;
+    height: 80vh;
+    gap: 30px;
+}
+.abouttext .btn-explore{
+    margin-top: 0;
+    font-size: 20px;
+    width: 190px;
+    height: 55px;
+    font-weight: 500;
+}
+.abouttext h1{
+    font-size: 50px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.newproducts{
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    min-height: 100vh;
+}
+.productcontent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 45px;
+    padding: 20px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 55vh;
+}
+.card h1 {
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+    margin: 0 0 10px 0;
+}
+.card h5 {
+    text-align: right;
+    font-weight: 600;
+    width: 100%;
+    margin: 50px 0 0 0;
+}
+
+.card .prd-pic{
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+}
+.prd-img-2 {
+    display: flex;
+    align-items: flex-end;
+    align-items: center;
+    justify-content: center;
+}
+.prd-img-2 .prd-pic {
+    margin-top: auto; 
+}
+
+@media (max-width: 1366px) {
+    .container .imghover .big_img img{
+        width: 400px;
+        height: 400px;
+    }
+    .small_img img{
+        width: 270px;
+    }
+    .textbox h1{
+        line-height: 85px;
+    }
+    .head .itemshead {
+        margin-left: 40vw;
+    }
+    .logo img{
+        top: 35px;
+    }
+    .head{
+        height: 70px;
+        width: auto;
+    }
+    .btn-explore{
+        margin-top:15px;
+    }
+    .header{
+        height: 120vh;
+    }
+    .hero-img{
+        height: 90vh;
+    }
+    .abouttext{
+        gap:10px;
+    }
+    .card .prd-pic{
+        width: 300px;
+    }
+    .card{
+       height:70vh;
+    }
 }
