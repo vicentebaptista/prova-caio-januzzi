@@ -131,7 +131,7 @@
 }
 .hero-img{
     height: 85vh;
-    mask-image: url("./assets/FORMA\ IMAG.svg");
+    mask-image: url("./assets/FORMA-IMAG.svg");
     mask-size: cover;
     margin-left: 5vw;
 }
