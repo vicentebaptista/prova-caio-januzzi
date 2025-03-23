@@ -13,6 +13,7 @@
 }
 .body{
     size: 100vh;
+   
 }
 .head {
     display: flex;
@@ -191,9 +192,9 @@
     width: 100%;
     margin: 50px 0 0 0;
 }
-
 .card .prd-pic{
     width: 400px;
+    height: 400px;
     border-radius: 10px;
 }
 .prd-img-2 {
@@ -227,6 +228,7 @@
 }
 .carroussel img{
     width: 300px;
+    height: 300px;
 }
 .review-card{
     display: flex;
@@ -343,6 +345,12 @@
 .ft-mail ul li {
     margin-bottom: 75px;
 }
+.mouse-hover:hover{
+    cursor: pointer;
+}
+button{
+    cursor: pointer;
+}
 
 
 
@@ -388,8 +396,12 @@
     }
     .card .prd-pic{
         width: 300px;
+        height: 300px;
     }
     .card{
        height:70vh;
+    }
+    .reviews{
+        margin-top: 5vh;
     }
 }
