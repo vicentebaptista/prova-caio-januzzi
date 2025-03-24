@@ -399,9 +399,17 @@ button{
         height: 300px;
     }
     .card{
-       height:70vh;
+       height:75vh;
     }
     .reviews{
         margin-top: 5vh;
+        height: 80vh;
+        gap: 50px;
+    }
+    .news-img img {
+        position: absolute;
+        width: 650px;
+        bottom: 0;
+        right: 0;
     }
 }
